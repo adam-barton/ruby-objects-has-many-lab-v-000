@@ -12,7 +12,7 @@ class Post
     end
 
     def author_name
-      if self.include? author 
+      if self.include? author
         self.author.name
       else
         nil
